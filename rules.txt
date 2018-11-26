@@ -40,6 +40,12 @@ referrer-spoof: behind-the-scene false
 * ssl.fastly.net script allow
 * unpkg.com script allow
 
+#Block Sites
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+* fbsbx.com * block
+
 #163
 referrer-spoof: 163.com false
 163.com ursdoccdn.nosdn.127.net script allow
@@ -264,9 +270,9 @@ essential.com contentful.com media allow
 essential.com maker.me script allow
 
 # Facebook
-facebook.com static.xx.fbcdn.net script allow
-facebook.com static.xx.fbcdn.net xhr allow
-facebook.com video-nrt1-1.xx.fbcdn.net xhr allow
+# facebook.com static.xx.fbcdn.net script allow
+# facebook.com static.xx.fbcdn.net xhr allow
+# facebook.com video-nrt1-1.xx.fbcdn.net xhr allow
 
 #Font Awesome
 fontawesome.com algolia.net script allow
